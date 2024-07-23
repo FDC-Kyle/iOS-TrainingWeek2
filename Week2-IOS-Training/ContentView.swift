@@ -44,8 +44,8 @@ struct ItineraryItemView: View {
                 Text(title)
                     .bold()
                 Text(description)
-                    .multilineTextAlignment(.leading) // Ensure multiline text alignment
-                    .fixedSize(horizontal: false, vertical: true) // Allow multiline text
+                    .multilineTextAlignment(.leading)
+                    .fixedSize(horizontal: false, vertical: true)
             }
 
             Spacer()
@@ -54,8 +54,8 @@ struct ItineraryItemView: View {
                 .padding(.top, 6)
                 .foregroundColor(.gray)
         }
-        .frame(maxWidth: .infinity, alignment: .leading) // Ensure entire width alignment
-        .padding(.vertical, 8) // Adjust vertical padding as needed
+        .frame(maxWidth: .infinity, alignment: .leading)
+        .padding(.vertical, 8)
     }
 }
 
