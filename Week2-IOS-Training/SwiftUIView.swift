@@ -302,7 +302,7 @@ struct ProductDetailView: View {
     @State private var showSuccessMessage = false
     @State private var showMessage1 = false
     @State private var yOffset: CGFloat = .zero
-        @State private var dragGestureOffset: CGSize = .zero
+    @State private var dragGestureOffset: CGSize = .zero
     
     var body: some View {
         VStack {

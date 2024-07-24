@@ -11,7 +11,7 @@ import SwiftUI
 struct Week2_IOS_TrainingApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            CollegeUniversities()
         }
     }
 }

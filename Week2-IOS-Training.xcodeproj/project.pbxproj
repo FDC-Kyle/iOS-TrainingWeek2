@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		80C6332A2C50950D005A0636 /* ApiScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C633292C50950D005A0636 /* ApiScreen.swift */; };
+		80C6332C2C50ACB4005A0636 /* CollegeUniversities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C6332B2C50ACB4005A0636 /* CollegeUniversities.swift */; };
 		80C8A5982C4DF557006D4EF2 /* Week2_IOS_TrainingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C8A5972C4DF557006D4EF2 /* Week2_IOS_TrainingApp.swift */; };
 		80C8A59A2C4DF557006D4EF2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C8A5992C4DF557006D4EF2 /* ContentView.swift */; };
 		80C8A59C2C4DF559006D4EF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80C8A59B2C4DF559006D4EF2 /* Assets.xcassets */; };
@@ -15,6 +17,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		80C633292C50950D005A0636 /* ApiScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiScreen.swift; sourceTree = "<group>"; };
+		80C6332B2C50ACB4005A0636 /* CollegeUniversities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollegeUniversities.swift; sourceTree = "<group>"; };
+		80C6332D2C50CD02005A0636 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		80C8A5942C4DF557006D4EF2 /* Week2-IOS-Training.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Week2-IOS-Training.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		80C8A5972C4DF557006D4EF2 /* Week2_IOS_TrainingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Week2_IOS_TrainingApp.swift; sourceTree = "<group>"; };
 		80C8A5992C4DF557006D4EF2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,10 +58,13 @@
 		80C8A5962C4DF557006D4EF2 /* Week2-IOS-Training */ = {
 			isa = PBXGroup;
 			children = (
+				80C6332D2C50CD02005A0636 /* Info.plist */,
 				80C8A5972C4DF557006D4EF2 /* Week2_IOS_TrainingApp.swift */,
 				80C8A5992C4DF557006D4EF2 /* ContentView.swift */,
 				80C8A5A72C4F4190006D4EF2 /* SwiftUIView.swift */,
 				80C8A59B2C4DF559006D4EF2 /* Assets.xcassets */,
+				80C633292C50950D005A0636 /* ApiScreen.swift */,
+				80C6332B2C50ACB4005A0636 /* CollegeUniversities.swift */,
 				80C8A59D2C4DF559006D4EF2 /* Preview Content */,
 			);
 			path = "Week2-IOS-Training";
@@ -140,6 +148,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80C6332A2C50950D005A0636 /* ApiScreen.swift in Sources */,
+				80C6332C2C50ACB4005A0636 /* CollegeUniversities.swift in Sources */,
 				80C8A59A2C4DF557006D4EF2 /* ContentView.swift in Sources */,
 				80C8A5982C4DF557006D4EF2 /* Week2_IOS_TrainingApp.swift in Sources */,
 				80C8A5A82C4F4190006D4EF2 /* SwiftUIView.swift in Sources */,
@@ -278,6 +288,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Week2-IOS-Training/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Week2-IOS-Training/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -306,6 +317,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Week2-IOS-Training/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Week2-IOS-Training/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
